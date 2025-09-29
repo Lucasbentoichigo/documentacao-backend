@@ -62,7 +62,7 @@ if (existeNome) {
     return res.status(409).json({
     status: 409,
     success: false,
-    message: "Wizard already enrolled at Hogwarts",
+    message: "Já existe um bruxo com esse nome!",
     error: "DUPLICATE_WIZARD",
     suggestions: [
         "Check the wizard nome",
